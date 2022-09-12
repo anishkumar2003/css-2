@@ -1,0 +1,24 @@
+/* this is element selector */
+p {
+    color: red;
+}
+
+/* id selector */
+/* we use # to slect id as a selector */
+#firstpara {
+    color: blue;
+}
+
+/* class selector
+we use . to select class as a our target */
+.first {
+    background-color: yellow;
+}
+
+
+/* grouping selector */
+
+footer,
+span {
+    background-color: aqua;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(249, 188, 20);
+}
+
+p {
+    background-color: yellow;
+}
+
+#pfirst {
+    background: pink;
+}
+
+#psecond {
+    background: red;
+}
+
+#pthird {
+    background: green;
+}

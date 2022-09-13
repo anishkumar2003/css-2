@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    background-color: aqua;
+}
+
+h1 {
+    font-family: cursive, Times, serif;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.headh1 {
+    background: yellow;
+    color: red;
+}
+
+h1 {
+    background-color: green;
+}
+
+#psecond {
+    background-color: red;
+}

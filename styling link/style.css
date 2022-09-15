@@ -1,0 +1,37 @@
+.container {
+    background-color: azure;
+    border: 5px solid rgb(50, 172, 161);
+    padding: 0 20px;
+    margin: 100px auto;
+    width: 500px;
+}
+
+.btn {
+    background-color: rgb(3, 174, 3);
+    color: white;
+    font-size: 13px;
+    padding: 6px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(3, 174, 3);
+}
+
+a:hover {
+    font-size: 14px;
+    background-color: green;
+}
+
+a:visited {
+    background-color: red;
+}
+
+a:active {
+    background: blue;
+}

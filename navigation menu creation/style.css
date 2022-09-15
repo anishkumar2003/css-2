@@ -1,0 +1,51 @@
+body {
+    background-image: url(images/section12.jpg);
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: black;
+    border-radius: 30px;
+    margin: 30px 20px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+    /* background: white; */
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+li a:hover {
+    font-size: 17px;
+}
+
+.navigation {
+    height: 1000px;
+    background-repeat: no-repeat;
+}
+
+.seacrhbox {
+    margin-top: 15px;
+    border-radius: 20px;
+    margin-right: 100px;
+    float: right;
+    font-size: 15px;
+}
+
+#seacrch {
+    border-radius: 20px;
+    width: 20rem;
+    padding: 0 10px;
+    font-style: italic;
+}

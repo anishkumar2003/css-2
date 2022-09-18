@@ -1,3 +1,200 @@
-header {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/bg3.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.left {
+    /* border: 2px solid red; */
     display: inline-block;
+    position: absolute;
+    top: 22px;
+    left: 20px;
+
+}
+
+.left p {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: -15px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 40%;
+    margin: auto;
+    position: relative;
+    top: 18px;
+}
+
+.right {
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+.left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    margin-top: 20px;
+    height: 55px;
+    font-size: 20px;
+    /* position: sticky; */
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+    /* border */
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #ffff;
+    border-radius: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 0px 10px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+    background: #ffff;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: white;
+    color: grey;
+    border-color: grey;
+}
+
+/* .navbar{
+    position: relative;
+} */
+
+
+.container {
+    margin-top: 10px;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    width: 50%;
+    margin: 40px auto;
+    padding: 0px 100px;
+}
+
+.form-group input {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    width: 65%;
+    border: 2px solid red;
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container .btn-form {
+    display: block;
+    width: 100px;
+    margin: 20px 105px;
+}
+
+.container .btn-form .btn:hover {
+    background: grey;
+    color: white;
+    border: black;
+}
+
+.form-group label {
+    font-family: cursive;
+    font-size: 20px;
+    /* display: block; */
+}
+
+form {
+    display: block;
+    width: 90%;
+    margin: 0px 105px;
+}
+
+.formg {
+    font-family: cursive;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.form-group select {
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+/* .con2 {
+    /* width: 100%; */
+/* background: url(images/mid.jpg); */
+/* background: invert(100%); */
+/* height: 500px; */
+/* display: block;
+    margin: auto; */
+/* }  */
+
+.qoutes {
+    height: 70px;
+    width: 310px;
+    background: white;
+    color: black;
+    display: inline-block;
+    margin: 30px 5px;
+    font-size: bold;
+    font-family: cursive;
+    border-radius: 20px;
+    padding: 0px 5px;
+}
+
+.insidecon {
+    display: block;
+    margin-left: 90px;
+}
+
+.qoutes:hover {
+    height: 70px;
+    width: 315px;
+    background: white;
+    color: black;
+    display: inline-block;
+    margin: 30px 5px;
+    font-size: bold;
+    font-family: cursive;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 0px 5px;
 }

@@ -12,21 +12,75 @@
 </head>
 <body>
     <header>
-        <div class="left"><img src="#" alt="favicon"></div>
+        <div class="left"><img id="logo" src="images/logo.png" alt="favicon">
+            <div><p class="logocaption">Blood donation</p></div>
+        </div>
         <div class="mid">
             <nav>
-                <ul>
-                    <li>Home </li>
-                    <li>About us</li>
-                    <li>Fitness Calculator</li>
-                    <li>Contact us</li>
+                <ul class="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
             </nav>
         </div>
-        <div class="left">
+        <div class="right">
             <button class="btn">email us</button>
             <button class="btn">Partners</button>
         </div>
-    </header>    
+    </header> 
+    <main>
+        <div class="container">
+            <h1 class="hfirst">Stay fit and eat right and donate blood.</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                  <label for="Name">Name:</label><input type="text" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="age">age:</label><input type="number" min="18" max="55">
+                </div>
+                <div class="form-group">
+                  <label for="email">email:</label><input type="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                  <label for="Contact">Contact:</label><input type="tel" placeholder="Enter your contact no.">
+                </div>
+                <div class="formg">
+                  <label for="gender">gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Other <input type="radio" name="mygender">
+                </div>
+                <div class="form-group">
+                    <label for="Blood-Group">Blood-Group:</label>
+                    <select name="Blood-Group" id="BG-group">
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="AB+">AB+</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                </div>
+                <div class="btn-form">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="con2">
+            <div class="insidecon">
+                <div class="qoutes">
+                    <p>Be the reason for someone's heartbeat</p>
+                </div>
+                <div class="qoutes">
+                    <p>A single drop of blood can make a huge difference.</p>
+                </div>
+                <div class="qoutes">
+                    <p>Donate blood and be the reason for someone's existence.</p>
+                </div>
+                <div class="qoutes">
+                    <p>A blood donor is equal to a lifesaver.</p>
+                </div>
+            </div>
+        </div>
+    </main>   
 </body>
 </html>

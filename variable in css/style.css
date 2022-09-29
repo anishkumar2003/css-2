@@ -1,0 +1,18 @@
+:root {
+    --box-color: blue;
+    --border-color: red;
+    --maxw: 333px;
+}
+
+.container1 {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid var(--border-color);
+    margin: 5px;
+}

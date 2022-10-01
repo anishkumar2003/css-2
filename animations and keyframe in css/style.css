@@ -1,0 +1,68 @@
+:root {
+    --text-color: yellow;
+}
+
+.container1 {
+    display: flex;
+}
+
+.box {
+    border: 2px solid green;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: red;
+    color: var(--text-color);
+    animation-name: move1;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+#box2 {
+    position: relative;
+    animation-name: move2;
+    animation-iteration-count: 1;
+    animation-duration: 20s;
+    animation-delay: 2s;
+}
+
+@keyframes move2 {
+    0% {
+        top: 50px;
+        left: 0px;
+    }
+
+    25% {
+        top: 200px;
+        left: 500px;
+    }
+
+    50% {
+        top: 50px;
+        left: 500px;
+    }
+
+    75% {
+        top: 0px;
+        left: 500px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+@keyframes move1 {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 500px;
+    }
+
+}

@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 5px;
+    box-shadow: 5px 0 0 0 solid grey;
+    border: 1px solid grey;
+}
+
+.container1 {
+    margin: 20px 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.navitems {
+    display: flex;
+    margin-left: 39%;
+}
+
+ul li {
+    list-style: none;
+    margin: 0px 7px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid rgb(142, 45, 221);
+    font-size: 18px;
+}
+
+.name {
+    /* font-size: 25px; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(142, 45, 221);
+    margin-top: -7px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(142, 45, 221);
+    margin: 0px 2px;
+    width: 50px;
+    height: 30px;
+    padding: 3px;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 17px;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.signup {
+    width: 70px;
+}
+
+.btn:hover {
+    background-color: rgb(112, 34, 176);
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.courselist {
+    display: flex;
+}
+
+.courselist li a {
+    color: rgb(142, 45, 221);
+    font-weight: bold;
+    margin: 8px;
+}
+
+#search1 {
+    flex-direction: flex-end;
+}
+
+.cources {
+    margin: auto;
+}
+
+.search input {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.search input:hover {
+    border: 2px solid rgb(142, 45, 221);
+    color: rgb(112, 34, 176);
+}
